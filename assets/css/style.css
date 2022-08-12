@@ -1,0 +1,116 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    padding: 15vh;
+    font-family: 'Rajdhani', sans-serif;    
+    background: whitesmoke;
+}
+
+.game-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-size: 50px;
+}
+.game-text > button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.score {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 2rem;
+}
+.start {
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    font-size: 36px;
+    margin-top: 2rem;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.3s;
+}
+.start:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.3s;    
+}
+
+.playground > ul {
+    border: 5px solid #000;
+    width: 250px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.playground > ul > li {
+    width: 100%;
+    height: 25px;
+}
+
+.playground > ul > li > ul {
+    display: flex;
+}
+
+
+.playground > ul > li > ul > li {
+    width: 25px;
+    height: 25px;
+    /* outline: 1px solid #ccc; */
+}
+
+.tree {
+    background: #699B37;
+    outline: 1px solid #ccc;
+}
+
+.squre {
+    background: #315F97;
+    outline: 1px solid #ccc;    
+}
+
+.bar {
+    background: #C75252;
+    outline: 1px solid #ccc;    
+}
+
+.zee {
+    background: #E9AE2B;
+    outline: 1px solid #ccc;    
+}
+
+.elLeft {
+    background: #6656A7;
+    outline: 1px solid #ccc;    
+}
+
+.elRight {
+    background: #358791;
+    outline: 1px solid #ccc;    
+}
